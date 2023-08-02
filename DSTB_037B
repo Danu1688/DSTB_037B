@@ -12,7 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
-  interface-name: wwan0
+  interface-name: eth0.200
 - name: danu01_LiveDO01b
   type: trojan
   server: 172.67.139.111
@@ -26,7 +26,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
-  interface-name: wwan0
+  interface-name: eth0.200
 - name: danu01_LiveDO01c
   type: trojan
   server: beacon.liveon.id
@@ -40,7 +40,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
-  interface-name: wwan0
+  interface-name: eth0.200
 - name: DanuBackup_LiveDOa
   type: trojan
   server: 104.21.8.121
@@ -54,7 +54,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-  interface-name: wwan0
+  interface-name: eth0.200
 - name: DanuBackup_LiveDOb
   type: trojan
   server: 172.67.139.111
@@ -68,7 +68,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-  interface-name: wwan0
+  interface-name: eth0.200
 - name: DanuBackup_LiveDOc
   type: trojan
   server: beacon.liveon.id
@@ -82,4 +82,4 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-  interface-name: wwan0
+  interface-name: eth0.200
