@@ -1,17 +1,17 @@
 proxies:
-- name: LindoAkrab_AkrabDo_7
+- name: LindoAkrab_AkrabDO_7
   type: trojan
-  server: 104.20.75.141
+  server: 104.21.8.121
   port: 443
-  password: 32ce2bb4-2228-4e95-a950-c3e9a674cc65
+  password: 1bd3c4b6-6237-42b3-8ea3-114b5b53ecbe
   udp: true
-  sni: sgdo1.dstb.cloud
+  sni: danu529.foryou-ssh.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojanws
+    path: /trojan-ws
     headers:
-      Host: sgdo1.dstb.cloud
+      Host: danu529.foryou-ssh.my.id
   interface-name: eth0.200
 - name: Danu37_AkrabBiznet37_1
   type: trojan
