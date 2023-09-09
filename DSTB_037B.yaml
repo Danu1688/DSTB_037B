@@ -1,7 +1,7 @@
 proxies:
-- name: LindoAkrab_AkrabDO_7
+- name: LindoAkrab_AkrabDO_1
   type: trojan
-  server: 104.21.8.121
+  server: 104.18.1.196
   port: 443
   password: 1bd3c4b6-6237-42b3-8ea3-114b5b53ecbe
   udp: true
