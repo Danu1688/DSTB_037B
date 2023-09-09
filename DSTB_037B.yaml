@@ -13,103 +13,19 @@ proxies:
     headers:
       Host: danu529.foryou-ssh.my.id
   interface-name: eth0.200
-- name: Danu37_AkrabBiznet37_1
+- name: TrojanWsSvr-Live_1
   type: trojan
   server: 104.18.1.196
   port: 443
-  password: 881f183c-d751-4c8c-9f5b-3f01d586197b
+  password: 9766b64f-2d18-464b-8be5-02231f0e0c44
   udp: true
-  sni: biznet2.myserver-prem.cloud
+  sni: sgdo3.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: biznet2.myserver-prem.cloud
-  interface-name: eth0.200
-- name: Danu37_AkrabBiznet37_2
-  type: trojan
-  server: 104.18.2.198
-  port: 443
-  password: 881f183c-d751-4c8c-9f5b-3f01d586197b
-  udp: true
-  sni: biznet2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: biznet2.myserver-prem.cloud
-  interface-name: eth0.200
-- name: Danu37_AkrabBiznet37_3
-  type: trojan
-  server: 104.18.3.198
-  port: 443
-  password: 881f183c-d751-4c8c-9f5b-3f01d586197b
-  udp: true
-  sni: biznet2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: biznet2.myserver-prem.cloud
-  interface-name: eth0.200
-- name: Danu37_AkrabBiznet37_4
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: 881f183c-d751-4c8c-9f5b-3f01d586197b
-  udp: true
-  sni: biznet2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: biznet2.myserver-prem.cloud
-  interface-name: eth0.200
-- name: Danu37_AkrabBiznet37_5
-  type: trojan
-  server: 104.18.0.196
-  port: 443
-  password: 881f183c-d751-4c8c-9f5b-3f01d586197b
-  udp: true
-  sni: biznet2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: biznet2.myserver-prem.cloud
-  interface-name: eth0.200
-- name: Danu37_AkrabBiznet37_6
-  type: trojan
-  server: cdn.noice.id
-  port: 443
-  password: 881f183c-d751-4c8c-9f5b-3f01d586197b
-  udp: true
-  sni: biznet2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: biznet2.myserver-prem.cloud
-  interface-name: eth0.200
-- name: Danu37_AkrabBiznet37_7
-  type: trojan
-  server: 104.20.75.141
-  port: 443
-  password: 881f183c-d751-4c8c-9f5b-3f01d586197b
-  udp: true
-  sni: biznet2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: biznet2.myserver-prem.cloud
+      Host: sgdo3.dstb.cloud
   interface-name: eth0.200
 - name: DanuBackup_AkrabDO37_1
   type: trojan
