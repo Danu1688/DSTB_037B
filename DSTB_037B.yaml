@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: danu529.foryou-ssh.my.id
   interface-name: eth0.200
-- name: LindoSSS_LiveDO_1
+- name: LindoSSS_AkrabDO_1
   type: trojan
   server: quiz.int.vidio.com
   port: 443
