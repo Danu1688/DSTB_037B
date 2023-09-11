@@ -13,19 +13,19 @@ proxies:
     headers:
       Host: danu529.foryou-ssh.my.id
   interface-name: eth0.200
-- name: TrojanWsSvr-Live_1
+- name: LindoSSS_LiveDO_1
   type: trojan
   server: quiz.int.vidio.com
   port: 443
-  password: 9766b64f-2d18-464b-8be5-02231f0e0c44
+  password: 6a14123d-2573-49ba-bdb3-7f10eba0caa6
   udp: true
-  sni: sgdo3.dstb.cloud
+  sni: sgdo2.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /xraytrojanws
     headers:
-      Host: sgdo3.dstb.cloud
+      Host: sgdo2.myserver-prem.xyz
   interface-name: eth0.200
 - name: DanuBackup_AkrabDO37_1
   type: trojan
