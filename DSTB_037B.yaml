@@ -1,19 +1,5 @@
 proxies:
-- name: LindoNusa_AkrabNusa_1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 6af5ef06-7bf5-4706-8b71-5ac3df4be98d
-  udp: true
-  sni: vpna4mvbhv.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpna4mvbhv.scpotato.me
-  interface-name: eth0.200
-- name: LindoAkrab_AkrabDO_1
+- name: LindoAkrabDo1_Akrab_H1
   type: trojan
   server: quiz.int.vidio.com
   port: 443
@@ -27,7 +13,7 @@ proxies:
     headers:
       Host: danu529.foryou-ssh.my.id
   interface-name: eth0.200
-- name: LindoSSS_AkrabDO_1
+- name: LindoSSSDo2_Akrab_H1
   type: trojan
   server: quiz.int.vidio.com
   port: 443
@@ -41,7 +27,7 @@ proxies:
     headers:
       Host: sgdo2.myserver-prem.xyz
   interface-name: eth0.200
-- name: DanuBackup_AkrabDO37_1
+- name: DanuBackup_AkrabDO37_H1
   type: trojan
   server: quiz.int.vidio.com
   port: 443
