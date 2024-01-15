@@ -1,17 +1,17 @@
 proxies:
-- name: LindoDo2_Akrab_H1
+- name: SvrAtha51_AKRAB_H1
   type: trojan
   server: quiz.int.vidio.com
   port: 443
-  password: 122ad31e-1708-4fbe-9ba1-7a2776a71595
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
   udp: true
-  sni: dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /trojan
     headers:
-      Host: dstb.cloud
+      Host: id3.myserver-prem.xyz
   interface-name: eth0.200
 - name: ServerNusa_Akrab_H1
   type: trojan
@@ -26,46 +26,4 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-  interface-name: eth0.200
-- name: LindoAkrabDo1_Akrab_H1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 1bd3c4b6-6237-42b3-8ea3-114b5b53ecbe
-  udp: true
-  sni: danu529.foryou-ssh.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: danu529.foryou-ssh.my.id
-  interface-name: eth0.200
-- name: LindoSSSDo2_Akrab_H1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 6a14123d-2573-49ba-bdb3-7f10eba0caa6
-  udp: true
-  sni: sgdo2.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /xraytrojanws
-    headers:
-      Host: sgdo2.myserver-prem.xyz
-  interface-name: eth0.200
-- name: DanuBackup_AkrabDO37_H1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
-  udp: true
-  sni: do-2device.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: do-2device.myserver-prem.cloud
   interface-name: eth0.200
